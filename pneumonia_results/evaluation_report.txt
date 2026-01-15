@@ -1,0 +1,25 @@
+============================================================
+    PNEUMONIA DETECTION MODEL - EVALUATION REPORT
+============================================================
+
+Date: 2026-01-12 03:52:52
+Model: ResNet18 (PyTorch)
+
+PERFORMANCE METRICS
+----------------------------------------
+Accuracy:  0.8926 (89.26%)
+Precision: 0.8662 (86.62%)
+Recall:    0.9795 (97.95%)
+F1-Score:  0.9194 (91.94%)
+AUC:       0.9683
+
+CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+      NORMAL       0.96      0.75      0.84       234
+   PNEUMONIA       0.87      0.98      0.92       390
+
+    accuracy                           0.89       624
+   macro avg       0.91      0.86      0.88       624
+weighted avg       0.90      0.89      0.89       624
